@@ -8,3 +8,9 @@ The dataset, sourced from Kaggle, formed the basis of this project.
 Unnecessary columns were removed from the dataset, and the remaining ones were renamed for better clarity. 
 The target variable underwent label encoding to transform it into numerical values. 
 Null and duplicate values were examined and managed, ensuring duplicate rows were retained only once.
+# 3. Exploratory Data Analysis (EDA)
+The dataset was examined to detect any disparities between spam and ham categories. 
+NLTK was imported for conducting Natural Language Processing (NLP) operations. 
+Further attributes like character count, word count, and sentence count were extracted from each text. 
+Tokenization of words and sentences was executed to aid in analysis. 
+Descriptive statistics were utilized to investigate variances between spam and ham messages.
